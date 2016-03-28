@@ -1,0 +1,52 @@
+# Basic
+title: initWithFxl`s Home
+subtitle: 上善若水,人淡如菊;严于律己,宽以待人
+welcome_message: <a href="http://music.163.com/#/user/home?id=97838436" target="_blank">我的网易云音乐歌单</a>
+description: 嗨,你好,我是张鸿懿,会一点iOS,正在寻求一份iOS实习工作,如果您有职位适合,请联系我!
+creator: <a href="http://weibo.com/initwithfxl">@initWithFxl</a>
+
+# url: "http://vno.onevcat.com"
+
+permalink: /:year/:month/:title/
+
+# Format
+highlighter: plain
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", tables]
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: slate
+
+# The blog button should not be removed.
+blog_button:
+    title: Blog
+    description: Visit blog
+
+# Navigation buttons in the front page.
+nav:
+    - {title: About, description: About initWithFxl, url: 'http://weibo.com/initwithfxl'}
+    # - {title: Another Button, description: A button, url: 'http://example.com'}
+
+# Pagination
+gems: [jekyll-paginate]
+paginate: 10
+paginate_path: "page/:num/"
+
+# Comment
+comment:
+    disqus: vno-jekyll
+    # duoshuo: 
+    
+# Social
+social:
+    weibo: initwithfxl
+    github: initwithfxl
+    twitter: zhyInitWithFxl
+    gplus: 110442399363879889986
+    mail: initwithfxl@foxmail.com
+
+# Google Analytics
+ga:
+    # id: your_ga_id
+    # host: your_host
