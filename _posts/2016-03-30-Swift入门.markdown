@@ -85,8 +85,6 @@ date: 2016-03-30 22:15:24.000000000 +09:00
 #### 代码实现
 
 ```
-swift
-
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -143,9 +141,9 @@ class ViewController: UIViewController {
 * `var` 定义变量，赋值之后仍然可以修改
 
 ```
-swift
 1.常量
-* 定义常量并且直接设置数值
+
+定义常量并且直接设置数值
 let x = 20
 * 常量数值一经设置，不能修改，以下代码会报错
 x = 30
@@ -180,7 +178,6 @@ y = 300
 > 如果要对不同类型的数据进行计算，必须要显式的转换
 
 ```
-	swift
 	let x2 = 100
 	let y2 = 10.5
 	let num1 = Double(x2) + y2
@@ -191,6 +188,7 @@ y = 300
 
 * **应该尽量先选择常量**，只有在必须修改时，才需要修改为 `var`
 * 在 Xcode 7.0 中，如果没有修改变量，Xcode 会提示修改为 `let`
+
 ---
 ### <a name="Optional"></a>Optional可选值
 * `Optional` 是 Swift 的一大特色，也是 Swift 初学者最容易困惑的问题
